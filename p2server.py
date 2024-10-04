@@ -18,4 +18,3 @@ def start_server():
 
 start_server()
 
-Pyro4.Daemon.serveSimple({RemoteService:'remote'},ns=True)
